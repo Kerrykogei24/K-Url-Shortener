@@ -14,10 +14,12 @@ This is a simple flask app which takes an URL and shortens it. This shortened ve
 * cd Url-shortener
 
 * Initialize virtual environment
+
        source virtual/bin/activate
 
 * Use pip to install the requirements
-    pip install -r requirements.txt
+
+        pip install -r requirements.txt
 
 * To run the application, in your terminal:
 
