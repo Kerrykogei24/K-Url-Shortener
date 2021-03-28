@@ -31,6 +31,7 @@ movies whose total duration equals the exact length of the flight.
 
 #### For Flight Movie Solution
 *run test to see it pass
+
         python movie.py
 ## Technology used
 
