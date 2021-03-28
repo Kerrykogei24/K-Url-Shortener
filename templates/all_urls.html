@@ -1,8 +1,20 @@
-{% extends "base.html" %}
-{% block title %}View all URLS{% endblock %}
+{% extends "base.html" %} {% block title %}View all URLS{% endblock %} {% block content %} {% for url in vals %}
+<div class="fom">
+    <p><strong>Shorten Url:</strong>
+        <a href="http://127.0.0.1:5000/{{url.short}}"> http://127.0.0.1:5000/{{url.short}} </a>
+        <br><strong>Original Url:</strong>
+        <a href="{{url.original_url}}">{{url.original_url}}</a></div>
 
-{% block content %}
-    {% for url in vals %}
-        <p><strong>Short:</strong>{{url.short}} <strong>Long:</strong> {{url.long}}</p>
-    {% endfor %}
-{% endblock %}
+</p>
+<br><br>
+<style>
+    body {
+        background-color: aliceblue;
+    }
+    
+    .fom {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+</style>
+{% endfor %} {% endblock %}
