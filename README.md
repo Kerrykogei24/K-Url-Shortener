@@ -1,10 +1,14 @@
-# K Url Shortener
+# K Url Shortener & Flight Movie Solution
 ## By Kerry Kogei 
 
-## Description
+##   Description
+
+# 1. Url Shortener
 This is a simple flask app which takes an URL and shortens it. This shortened verion of the URL redirects to the user to the long URL.  
 
-
+# 2. Flight Movie Solution
+This a feature that allows the selection of two
+movies whose total duration equals the exact length of the flight.
           
 
 ## Setup Installation
@@ -21,11 +25,13 @@ This is a simple flask app which takes an URL and shortens it. This shortened ve
 
         pip install -r requirements.txt
 
-* To run the application, in your terminal:
+* To run the application, in your terminal: 
+#### For URL_shortener 
+        python app.py
 
-        python3 app.py
-
-
+#### For Flight Movie Solution
+*run test to see it pass
+        python movie.py
 ## Technology used
 
 * Python3.8
