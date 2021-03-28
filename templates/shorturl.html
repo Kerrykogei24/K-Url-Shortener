@@ -1,0 +1,19 @@
+{% extends "base.html" %} {% block title %}Short URL{% endblock %} {% block content %}
+<div class="fom">
+    <h2>This is your shorten Url</h2>
+    <br><br>
+    <br><br><br>
+    <h1>http://127.0.0.1:5000/{{short_url_display}}</h1>
+    <a href="http://127.0.0.1:5000/">BACK TO HOME</a>
+    <br><br>
+    <br><br><br>
+</div>
+
+<style>
+    .fom {
+        text-align: center;
+        font: 30px;
+        background-color: aliceblue;
+    }
+</style>
+{% endblock %}
